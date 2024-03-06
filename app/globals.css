@@ -1,33 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+	display: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
+/* Hide scrollbar for IE, Edge and Firefox */
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+.font-nunito-sm {
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+.font-nunito-md {
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+}
+.font-nunito-lg {
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+}
+.font-nunito-xl {
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 48px;
+	font-weight: 700;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+@media (max-width: 768px) {
+	.font-nunito-xl {
+		font-size: 32px;
+	}
 }

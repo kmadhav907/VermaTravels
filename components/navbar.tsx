@@ -8,7 +8,7 @@ const Navbar = () => {
 		<nav className="w-screen z-20 flex justify-between items-center px-1 py-2 h-[64px] sticky top-0 bg-orange-100 shadow-lg md:px-2 md:py-4">
 			<Link
 				href="/"
-				className="font-nunito-lg font-black px-2 md:px-5 flex items-center gap-2"
+				className="px-0 md:px-5 flex items-center gap-2"
 			>
 				<Image
 					src={LogoImgage}
@@ -16,18 +16,20 @@ const Navbar = () => {
 					loading="lazy"
 					alt="verma-travels-icon"
 				></Image>
-				Verma Travels
+				<div className="font-nunito-lg font-black hidden md:block">
+					Verma Travels
+				</div>
 			</Link>
 			<div className="flex gap-4 px-4">
 				<Link
 					href="#explore"
-					className="font-nunito-md"
+					className="font-nunito-md whitespace-nowrap"
 				>
 					Explore
 				</Link>
 				<Link
 					href="#contact"
-					className="font-nunito-md"
+					className="font-nunito-md whitespace-nowrap"
 				>
 					Contact us
 				</Link>

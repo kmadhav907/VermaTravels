@@ -108,7 +108,7 @@ export default function Home() {
 			</div>
 			<div
 				id="exploreDestination"
-				className="flex mt-[100px] items-center justify-center flex-col md:w-[100vw] w-screen p-2 md:p-8 mb-[20px]"
+				className="flex mt-[20px] md:mt-[100px] items-center justify-center flex-col md:w-[100vw] w-screen p-2 md:p-8 mb-[20px]"
 			>
 				<h1 className="font-nunito-xl max-w-[100%] text-center">
 					Discover North India with Verma Travels
@@ -116,6 +116,152 @@ export default function Home() {
 				<button className="font-nunito-md shadow-lg bg-sky-500 hover:bg-sky-600  md:flex-row rounded-md text-white px-4 py-2 mt-4 mx-auto md:mx-0">
 					Plan your trip now
 				</button>
+			</div>
+			<div className="flex mt-[20px] md:mt-[40px] mb-[20px] items-center w-screen justify-evenly flex-nowrap flex-col md:flex-row gap-2">
+				<div className="w-screen md:w-[30%] md:m-0 mt-[10px] mx-auto bg-white shadow-md rounded-lg overflow-hidden">
+					<div className="px-4 py-6">
+						<h2 className="text-2xl font-bold text-gray-800 text-center">
+							Basic
+						</h2>
+						<p className="text-gray-600 text-center mt-2">
+							Perfect for individuals
+						</p>
+						<div className="mt-6">
+							<p className="text-5xl text-center font-semibold">$9</p>
+							<p className="text-gray-600 text-center">per month</p>
+						</div>
+					</div>
+					<div className="px-4 py-4 bg-gray-100">
+						<ul className="text-sm text-gray-600">
+							<li className="flex items-center">
+								<svg
+									className="w-4 h-4 mr-2 fill-current text-green-500"
+									viewBox="0 0 20 20"
+								>
+									<path d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-2-9a1 1 0 0 1 2 0v3a1 1 0 0 1-2 0v-3zm2 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+								</svg>
+								Unlimited Access
+							</li>
+							<li className="flex items-center mt-3">
+								<svg
+									className="w-4 h-4 mr-2 fill-current text-green-500"
+									viewBox="0 0 20 20"
+								>
+									<path d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-2-9a1 1 0 0 1 2 0v3a1 1 0 0 1-2 0v-3zm2 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+								</svg>
+								24/7 Support
+							</li>
+							<li className="flex items-center mt-3">
+								<svg
+									className="w-4 h-4 mr-2 fill-current text-green-500"
+									viewBox="0 0 20 20"
+								>
+									<path d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-2-9a1 1 0 0 1 2 0v3a1 1 0 0 1-2 0v-3zm2 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+								</svg>
+								Monthly Updates
+							</li>
+						</ul>
+						<button className="block w-full mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
+							Plan
+						</button>
+					</div>
+				</div>
+				<div className="w-screen md:w-[30%] md:m-0 mt-[10px] mx-auto bg-white shadow-md rounded-lg overflow-hidden">
+					<div className="px-4 py-6">
+						<h2 className="text-2xl font-bold text-gray-800 text-center">
+							Basic
+						</h2>
+						<p className="text-gray-600 text-center mt-2">
+							Perfect for individuals
+						</p>
+						<div className="mt-6">
+							<p className="text-5xl text-center font-semibold">$9</p>
+							<p className="text-gray-600 text-center">per month</p>
+						</div>
+					</div>
+					<div className="px-4 py-4 bg-gray-100">
+						<ul className="text-sm text-gray-600">
+							<li className="flex items-center">
+								<svg
+									className="w-4 h-4 mr-2 fill-current text-green-500"
+									viewBox="0 0 20 20"
+								>
+									<path d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-2-9a1 1 0 0 1 2 0v3a1 1 0 0 1-2 0v-3zm2 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+								</svg>
+								Unlimited Access
+							</li>
+							<li className="flex items-center mt-3">
+								<svg
+									className="w-4 h-4 mr-2 fill-current text-green-500"
+									viewBox="0 0 20 20"
+								>
+									<path d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-2-9a1 1 0 0 1 2 0v3a1 1 0 0 1-2 0v-3zm2 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+								</svg>
+								24/7 Support
+							</li>
+							<li className="flex items-center mt-3">
+								<svg
+									className="w-4 h-4 mr-2 fill-current text-green-500"
+									viewBox="0 0 20 20"
+								>
+									<path d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-2-9a1 1 0 0 1 2 0v3a1 1 0 0 1-2 0v-3zm2 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+								</svg>
+								Monthly Updates
+							</li>
+						</ul>
+						<button className="block w-full mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
+							Plan
+						</button>
+					</div>
+				</div>
+				<div className="w-screen md:w-[30%] md:m-0 mt-[10px] mx-auto bg-white shadow-md rounded-lg overflow-hidden">
+					<div className="px-4 py-6">
+						<h2 className="text-2xl font-bold text-gray-800 text-center">
+							Basic
+						</h2>
+						<p className="text-gray-600 text-center mt-2">
+							Perfect for individuals
+						</p>
+						<div className="mt-6">
+							<p className="text-5xl text-center font-semibold">$9</p>
+							<p className="text-gray-600 text-center">per month</p>
+						</div>
+					</div>
+					<div className="px-4 py-4 bg-gray-100">
+						<ul className="text-sm text-gray-600">
+							<li className="flex items-center">
+								<svg
+									className="w-4 h-4 mr-2 fill-current text-green-500"
+									viewBox="0 0 20 20"
+								>
+									<path d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-2-9a1 1 0 0 1 2 0v3a1 1 0 0 1-2 0v-3zm2 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+								</svg>
+								Unlimited Access
+							</li>
+							<li className="flex items-center mt-3">
+								<svg
+									className="w-4 h-4 mr-2 fill-current text-green-500"
+									viewBox="0 0 20 20"
+								>
+									<path d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-2-9a1 1 0 0 1 2 0v3a1 1 0 0 1-2 0v-3zm2 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+								</svg>
+								24/7 Support
+							</li>
+							<li className="flex items-center mt-3">
+								<svg
+									className="w-4 h-4 mr-2 fill-current text-green-500"
+									viewBox="0 0 20 20"
+								>
+									<path d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-2-9a1 1 0 0 1 2 0v3a1 1 0 0 1-2 0v-3zm2 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+								</svg>
+								Monthly Updates
+							</li>
+						</ul>
+						<button className="block w-full mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
+							Plan
+						</button>
+					</div>
+				</div>
 			</div>
 		</main>
 	);

@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 * {
 	margin: 0;
 	padding: 0;
@@ -44,5 +44,11 @@ body {
 @media (max-width: 768px) {
 	.font-nunito-xl {
 		font-size: 32px;
+	}
+	.font-nunito-lg {
+		font-size: 18px;
+	}
+	.font-nunito-md {
+		font-size: 16px;
 	}
 }

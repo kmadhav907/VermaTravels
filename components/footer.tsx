@@ -77,12 +77,13 @@ const Footer = () => {
 					</form>
 					<div className="w-full md:w-[50%] rounded flex items-center justify-center bg-white shadow-lg p-2">
 						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3450.5626974064453!2d77.27397537555721!3d30.135324474877944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDA4JzA3LjIiTiA3N8KwMTYnMzUuNiJF!5e0!3m2!1sen!2sin!4v1709741472152!5m2!1sen!2sin"
 							height="400"
-							frameBorder="0"
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.310540782229!2d-122.41941588474369!3d37.774929079753954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085805c8021dd67%3A0x7a9b5ceee65d8091!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1645953462566!5m2!1sen!2sus"
 							allowFullScreen
 							loading="lazy"
+							referrerPolicy="no-referrer-when-downgrade"
 							className="w-full"
+							frameBorder="0"
 						></iframe>
 					</div>
 				</div>
